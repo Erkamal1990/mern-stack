@@ -1,0 +1,6 @@
+db: node-data-base
+User:adminDB
+Pass: $Admin2020
+host: node-data-base.cpxnje0o0jsj.ap-south-1.rds.amazonaws.com
+
+$!<@^^@l2020

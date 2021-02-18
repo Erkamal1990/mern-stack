@@ -1,0 +1,54 @@
+Social Login
+https://medium.com/@alexanderleon/implement-social-authentication-with-react-restful-api-9b44f4714fa
+https://steemit.com/graphql/@alien35/creating-a-scalable-api-using-node-graphql-mysql-and-knex
+https://www.pluralsight.com/guides/how-to-router-redirect-after-login
+https://stackoverflow.com/questions/55600210/how-to-handle-login-redirect-to-dashboard-in-reactjs#:~:text=First%2C%20import%20withRouter%20to%20your,satisfied%20the%20conditions%20for%20login
+https://serverless-stack.com/chapters/redirect-on-login-and-logout.html
+https://muffinman.io/blog/react-router-subfolder-on-server/
+https://www.logisticinfotech.com/blog/deploy-react-js-subfolder/
+
+https://github.com/bezkoder/node-js-jwt-auth
+https://www.tutsmake.com/node-express-js-creating-a-restful-api-mysql-example/
+
+https://codepen.io/nathansebhastian/pen/RvrOYq
+https://medium.com/javascript-in-plain-english/how-to-create-a-multi-step-form-with-react-hooks-53a85efdff62
+https://codesandbox.io/s/simple-multi-step-form-in-react-2h3ki?file=/src/Address.js
+
+https://reactjsexample.com/responsive-reactjs-multistep-form-component/
+https://stackblitz.com/run/?file=index.js
+https://codepen.io/chemamx/pen/mZZzaa?editors=0010
+
+Added the database “glasiuv4_ad_portal”.
+qe(H7;s4!k)q
+glasiuv4_ad_portal
+
+++++++++++++
+pxquqtpo_ad_portal
+zNzUp=e*ghx#
+pxquqtpo_ad_portal
+
+8433822251
+++++++++++++++++++++++++++
+FB AD manager
+https://developers.facebook.com/docs/marketing-api/reference/ad-campaign-group/
+https://developers.facebook.com/docs/marketing-apis/get-started/#campaign
+
+https://developers.facebook.com/docs/marketing-api/audiences/reference/targeting-search
+
+https://developers.facebook.com/docs/marketing-api/guides/instagramads/get-started
+
+https://rsuitejs.com/components/slider
+https://www.npmjs.com/package/react-ion-slider
+https://www.npmjs.com/package/react-tag-autocomplete#options
+https://miguel.molina.xyz/react-categorized-tag-input/
+https://codesandbox.io/s/eloquent-brattain-9jzrx?from-embed=&file=/src/App.js:694-1104
+
+free template react
+https://github.com/creativetimofficial/paper-dashboard-react#demo
+
+https://github.com/dr5hn/resume/blob/main/projects.md
+https://www.npmjs.com/package/country-state-city
+https://codesandbox.io/s/propagate-slider-state-to-main-form-vm2eg?fontsize=14&hidenavigation=1&theme=dark&file=/src/components/MainForm.js
++++++++++++++++
+https://developers.facebook.com/docs/pages/overview#permissions
+https://stackoverflow.com/questions/2966015/facebook-get-list-of-pages-that-a-user-is-admin-of
