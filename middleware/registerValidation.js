@@ -1,6 +1,8 @@
 const { check,sanitizeBody } = require('express-validator');
+
 exports.registerform=[
-    check('fristName').notEmpty().withMessage('Frist name is required.').isLength({ min: 6 }).withMessage('Must be at least 6 chars long').matches(/^[a-zA-Z ]*$/).withMessage('Only Characters with white space are allowed'),
+
+    check('fristName').notEmpty().withMessage('Frist name is required.').isLength({ min: 2 }).withMessage('Must be at least 2 chars long').matches(/^[a-zA-Z ]*$/).withMessage('Only Characters with white space are allowed'),
     check('lastName').notEmpty().withMessage('Last name is required.').isLength({ min: 2 }).withMessage('Must be at least 2 chars long').matches(/^[a-zA-Z ]*$/).withMessage('Only Characters with white space are allowed'),
     check('email').notEmpty().withMessage('Email Address required').normalizeEmail().isEmail().withMessage('must be a valid email'),
     check('gender').notEmpty().withMessage('please select gender.'),
@@ -19,10 +21,12 @@ exports.registerform=[
        }
        return true;
       }),
-      check('profileImg').optional({nullable: true}).custom((value, {req}) => {
-        if(req.file.mimetype == "image/png" || req.file.mimetype == "image/jpg" || req.file.mimetype == "image/jpeg"){
-            throw new Error('Only .png, .jpg and .jpeg format allowed!.'); 
+      check('profileImg').custom((value, {req}) => {
+        if(req.file.mimetype === "image/png" || req.file.mimetype === "image/jpg" || req.file.mimetype === "image/jpeg"){
+            return 'Only .png, .jpg and .jpeg format allowed!.'; 
+        }else{
+            return false; 
         }
-        // return true;
-    }),
+    }).withMessage('Only .png, .jpg and .jpeg format allowed!.'), 
+
 ]

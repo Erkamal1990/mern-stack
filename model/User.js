@@ -19,7 +19,7 @@ const UserSchema = mongoose.Schema({
         required: true
     },
     gender: {
-        type: Number,
+        type: String,
         required: true
     },
     dob: {
@@ -44,4 +44,4 @@ const UserSchema = mongoose.Schema({
 })
 UserSchema.plugin(passportLocalMongoose);
 // export module
-module.exports = mongoose.model('user',UserSchema);
+module.exports = mongoose.model('users', UserSchema);

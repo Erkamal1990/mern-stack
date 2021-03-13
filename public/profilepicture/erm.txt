@@ -1,0 +1,133 @@
+1) Add a picture option for a hospital and same can be set in hospital-- Done
+Comment: picture is coming ver small, add picture option is not coming when we are adding the hospital
+3) Make email id mandatory for creating a hospital--Done
+5) not able to edit or delete a hospital---Done
+6) No need to show role & department in Admin details--- Done
+7) not able to view or edit or delete medical provider/patient from admin panel--Done
+8) when logged in from admin account , hospital picture is coming very big--Done
+9) patient are coming of different hospital--Done
+10) search not working----Done
+11)pop-up asking to make any hospital active or inactive --Done
+12) add a field for hospital name---Done
+13) show hospital name in listing of superadmin hospital--- Done
+14) make text to blue --- Done
++++++++++++++++++++++++++++++++++++
+20/10/2020
+
+Show insurance & demographic download option in excel in patient listing
+Comment: "claim number & EMPLOYER INFORMATION
+ & SUBSCRIBER INFORMATION
+is not coming in insurance"
+
+2) select all is not working
+Comment: not coming in medical provider & filters not working with select all
+
+6) when should be capital
+Comment: make it capital in block pop up as well
+
+11) rename dr to medical provider in calender meeting popup
+
+Super Admin 
+
+6) In pop-up, No need to show admin access & background, rename contact info to address, show the features they are using--Done
+8) when logged in from admin account , hospital picture is coming very big ---Done
+9) patient are coming of different hospital & summary reports on dashboard are not coming properly in medical provider
+10) search not working (not working in medical provider list)--Done
+
+
+- default profile picture should be visionary logo , nothing is coming up now--Done
+- remove dashboard from super admin, when logged in, should be jumped in into hospital listing page--Done
+- pop-up not coming for medical providers & details are not filling if we click on eye of medical provider--done
+- rename message to support--Done
+- eye not working in message area & make it full screen-- Done
+- Delete not working--discuss with client
+- Rename patient forward message to Reply Message --- Done
+- admin not receiving message from superadmin--Done
+
+Extra
+Show feature add update doctor panel	
+
+
+05-11-2020
+--------------------
+
+- attach option in messages btw admin & superadmin-- Done
+- Medical provider image is not coming in his my profile section--Done
+- profile picture in new medical provider--- Done
+
+- Medical provider images are coming very small
+- Please make the messages  & schedule work in medical  provider & patient account, as of now another users are coming in messages
+- Cropping functionality in all profile images/add/update
+
++++++++++++++++++++++++++++++++
+10-11-2020
+
+- attach option in messages btw admin & superadmin--Done
+- Cropping functionality in all profile images/add/update-- Done
+- profile picture in new medical provider-- Done
+- Add city, state, country, zip code in super admin new hospital--Done
+- UI of super admin new hospital to be modified-- Done
+- change superadmin logo to our logo--Done
+- Medical provider image is not coming in his my profile section-- Done
+
+- Medical provider images are coming very small/ discuss with mangesh
+- Please make the messages  & schedule work in medical  provider & patient account, as of now another users are coming in messages
+- put a email for support message to superadmin
+
++++++++++++
+12-11-2020
+
+attach option in messages btw admin & superadmin @@ message not working when email id is already present
+Medical provider images are coming very small @@ coming proper in super admin but not in admin account, also why is it email id already exists---Done
+Please make the messages  & schedule work in medical  provider & patient account, as of now another users are coming in messages
+Medical provider image is not coming in his my profile section @@ not able to test as email is already exists---
+Add city, state, country, zip code in super admin new hospital @@ show in double click screen-- Done
+
+put a email for support message to superadmin--Done
+++++++++++++++++++++++++++++++++
+29/01/2021
+--------------------
+- logo in medical provider + admin account-- done
+- change to messgae to noraml blue color-- done
+Comment: replace icons with blue color icons & make the text as blue as another text is blue--Done
+
+- side menu features not coming in admin & medical provider account-Kamal--Done
+
+- change to office phone in superadmin new hospital page-- Prakesh
+
+- medical provider address should be city, state like in admin-Prakesh
+
+- show address in medical provider like in patient in listing- Prakesh
+- show name in message while sending-Kamal--Done
+
+- medical provider add DOB, pat add DOB, insurance effective from , appointment ,  calender  not coming in safari browser,DOB should be mandatory in medical provider--After
+- email format as per hospital name-- After
++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+8-02-2021
+++++++++++++
+
+- medical provider add DOB, pat add DOB, insurance effective from , appointment , calender not coming in safari browser,DOB should be mandatory in medical provider
+- Comment : add medical provider birthdate calender is not nice
+
+- show name in message while sending---Done--Done
+Comment: please correct email in incoming messages of medical provider
+- email format as per hospital name-- Done--Done
+Comment: put the email format in forget password email as well
+
+- rename logo to picture in case of admin medical providers--Done--Done
+- profile disappear after medical provider becomes admin (after making changes in edit profile )--Done--Done
+- remove status from medical provider edit profile--Done--Done
+
+Patients :Create patient, capturing all the basic, insurance/ guraantor details.
+Medical provider : Create medical providers with optional admin access
+Health Record : Electronic health records, includes Vital Signs, e-Prescription, Allergies, Medications & much more
+Message : Secure messaging is the simplest and most efficient way to exchange information/documents for patients and medical professionals.
+Schedule : Schedule a meeting with patients and medical professionals at anytime/anywhere
+Billing* : To generate bills and patient statements for the patients
+Telemedicine : To connect patients and physicians around the world quickly and securely through live video.
+Insurance Eligiblility : To add, view, modify Insurance details for patients
+Online Profiles : To view online profiles at one place for all the patients & medical providers
+Growth Charts : To view dynamic presentable charts of vital signs of all patients
+Reporting : To get all the reporting of Medical Providers, Patients , Health records, Billing in PDF's/Excels
+
+Dashboard will have all the summary (show only summary only if feature is active --Done )

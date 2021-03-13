@@ -1,7 +1,7 @@
-const { check,sanitizeBody } = require('express-validator');
+const { body,sanitizeBody } = require('express-validator');
 module.exports = {
 registerValidation : (req, res) => { 
-    check('fristName').notEmpty().withMessage('Frist name is required.').isLength({ min: 6 }).withMessage('Must be at least 6 chars long').matches(/^[a-zA-Z ]*$/).withMessage('Only Characters with white space are allowed'),
+    check('fristName').isEmpty().withMessage('Frist name is required.').isLength({ min: 6 }).withMessage('Must be at least 6 chars long').matches(/^[a-zA-Z ]*$/).withMessage('Only Characters with white space are allowed'),
     check('lastName').notEmpty().withMessage('Last name is required.').isLength({ min: 2 }).withMessage('Must be at least 2 chars long').matches(/^[a-zA-Z ]*$/).withMessage('Only Characters with white space are allowed'),
     check('email').notEmpty().withMessage('Email Address required').normalizeEmail().isEmail().withMessage('must be a valid email'),
     check('gender').notEmpty().withMessage('please select gender.'),

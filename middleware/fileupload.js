@@ -5,10 +5,11 @@ module.exports.files={
         destination: function (req, file, cb) {
           cb(null, 'public/profilepicture/')
         },
-        filename: function (req, file, cb) {
-            cb(null, file.originalname)
+        filename: (req, file, cb) => {
+            const fileName = file.originalname.toLowerCase().split(' ').join('-');
+            cb(null, new Date().valueOf()+'-' + fileName)
         }
-      })
+            })
       
       return storage;
 },

@@ -8,7 +8,7 @@ var passport    =  require("passport");
 var bodyParser  =  require("body-parser");
 var LocalStrategy =  require("passport-local");
 var passportLocalMongoose =  require("passport-local-mongoose");
-var User  =  require("./model/user");
+var User  =  require("./model/User");
 
 var app = express();
 // Initiate Mongo Server
